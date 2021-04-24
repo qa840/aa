@@ -1,0 +1,5 @@
+
+script:
+- docker run debian ls
+- docker run alpine ls
+- docker run ruby ls

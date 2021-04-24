@@ -1,6 +1,6 @@
 
 script:
-- cat /etc/docker/docker-daemon.json
+- sudo cat /etc/docker/docker-daemon.json
 - docker run debian ls
 - docker run alpine ls
 - docker run ruby ls

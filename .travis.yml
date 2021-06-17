@@ -1,6 +1,8 @@
 arch:
 - arm64
 
+dist: xenial
+
 script:
 - sudo ls /etc/docker*
 - docker run debian ls
